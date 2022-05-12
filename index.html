@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <link rel="stylesheet" href="style-css.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="inner">
+      <div class="content">
+        <h3>图片上传工具</h3>
+        <lable>项目一<span>*</span></lable>
+        <select id="team" onchange="setUploadUser()">
+          <option value="">请选择</option>
+          <!-- value 放入 Google 云端的文件夹 ID -->
+          <option value="FolderID">选项</option>
+        </select>
+        <lable>项目二<span>*</span></lable>
+        <select id="uploadUser">
+          <option value="">选项二</option>
+        </select>
+        <lable>项目三<span>*</span></lable>
+        <select id="copyright">
+          <option value="">选项三</option>
+        </select>
+        <lable>项目四<span>*</span></lable>
+        <select id="fileType">
+          <option value="">选项四</option>
+        </select>
+        <lable>项目五<span>*</span></lable>
+        <input type="text" id="fileName" placeholder="请输入">
+        <lable>项目六</lable>
+        <input type="text" id="cnTitle" placeholder="请输入">
+        <lable>项目七</lable>
+        <input type="text" id="otherTitle" placeholder="请输入">
+        <div id="dropFile" class="dropArea">把文件拖到此处上传</div>
+      </div>
+    </div>
+  </div>
+  <script src="main-js.js"></script>
+</body>
+</html>

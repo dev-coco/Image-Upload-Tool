@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #626262;
+  font-size: 12px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("https://dev-coco.github.io/images/bg-blue.jpg") no-repeat;
+  background-size: cover;
+}
+
+.inner {
+  max-width: 550px;
+  border-radius: 23.5px;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding: 25px;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+  margin: 17px;
+  color: #027ee1;
+}
+
+span {
+  color: red;
+}
+
+select,
+input {
+  width: 100%;
+  border-radius: 23.5px;
+  height: 47px;
+  padding: 0 24px;
+  color: #808080;
+  font-size: 13px;
+  border: none;
+  background: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.dropArea {
+  width: 100%;
+  height: 120px;
+  border-radius: 23.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #01bfff;
+  font-size: 20px;
+  color: #fff;
+}
+
+select {
+  appearance: none;
+}
+
+lable {
+  font-size: 14px;
+  margin-left: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
