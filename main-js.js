@@ -10,7 +10,7 @@ const copyrightList = {
 
 // 设置上传图片人员选项
 function setUploadUser () {
-  // 获取福音队选项数据
+  // 获取选项数据
   const team = document.getElementById('team')
   const index = team.selectedIndex
   const label = team.options[index].text
